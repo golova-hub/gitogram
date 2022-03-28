@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+svg {
+  display: block;
+}
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+}
+.g-container {
+  width: 1200px;
+  margin: 0 auto;
+}
